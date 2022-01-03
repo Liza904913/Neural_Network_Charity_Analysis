@@ -6,7 +6,22 @@ The purpose of this project is to use deep-learning neural networks with the Ten
 
 ## Results
 
+### Data Preprocessing
+
+- The column IS_SUCCESSFUL contains binary data and  considered as the target for our model. 
 The model accuracy is under 75%. This is not a satisfying performance to help predict the outcome of the charity donations.
+
+- The  columns APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the features for our model.
+
+- The columns EIN and NAME are identification information and have been removed from the input data.
+
+### Compiling, Training, and Evaluating the Model
+
+- This deep-learning neural network model is made of two hidden layers with 80 and 30 neurons.
+
+- The model accuracy is under 75%. This is not a satisfying performance to help predict the outcome of the charity donation
+
+- To increase the performance of the model, we applied bucketing to the feature ASK_AMT. We increased the number of neurons on one of the hidden layers, then we used a model with three hidden layers.
 
 ## Summary
 
