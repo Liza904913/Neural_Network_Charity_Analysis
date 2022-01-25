@@ -4,6 +4,10 @@
 
 The purpose of this project is to use deep-learning neural networks with the TensorFlow platform in Python, to analyze and classify the success of charitable donations using following methods:  preprocessing the data for the neural network model, compile, train and evaluate the model, optimize the model.
 
+## Resources
+Data Source: charity_data.csv
+Software: Python 3.7.7, Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook 6.0.3
+
 ## Results
 
 ### Data Preprocessing
